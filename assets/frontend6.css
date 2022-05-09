@@ -1,101 +1,201 @@
+
+   
+
+
 body{
-    margin:0%;
+    background-color: rgb(166, 162, 178);
+   width: 3178px;
 }
+@media only screen and (max-width: 600px) {
+  body{
+      background-color: #ff8000;
+     
+    }
+    .logo1{
+        width: 216px;
+        height: 56px;
+    
+
+  }
+  .box1{
+      width: 300;
+      height: 100;
+  }
+  }
+  </style>
+
+
+
+
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 259px;
+    width: 3062px ; 
+   
+   
+}
+    
+   
+
+
+.container{
+    width: 3062px ; 
+   
+}
+
+.header-align{
+    display: flex;
+    list-style:none;
+    display: flex;
+
+  
+  
+   
+}
+.nav-link a{
+   
+    font-size: 48px;
+    line-height: 59px; 
+    color: #040200;
+   margin-left: 150px;
+   font-family: 'Montserrat Alternates';
+   font-style: normal;
+ font-weight: 700;
+}
+
+.logo1{
+    width: 816px;
+    height: 116px;
+
+}
+
+.banner-text{
+    width: 816px;
+    height: 116px;
+    color: #FFFFFF;
+    margin-top: 250px ;
+    margin-left: 232px;
+    font-size: 30px;
+ }
+ table {width: 1311px;
+    height: 640px;
+    font-size: 40px;
+    margin-left: 179px;
+   
+ }
+ table, th, td {
+    border: 1px solid;
+  }
+ 
+  
+  tr:nth-child(even) {background: rgb(105, 33, 33)}
+
+
 
 
 
 
 .banner {
     display: flex;
-    
-   
+    width: 3062px ; 
+   height:   724px;
+   margin-bottom: 150px;
+   margin-left: 70px;
+  
+  
 }
-.container { 
-    width: 1320px;
-    
-   
+.background-image{
+    width:3062px ;
+    height: 724px ;
+    background-image: url(img/background.webp) ;
 }
+.box1{
+    width: 1217px;
+    height: 640px;
+    border-width: 3px;
+    border-color: rgb(163, 40, 40);
+    background-color: #34307a;
+    margin-right:  157px;
+}
+.box2{
+ width:200px;
+ height: 200px;
+ background-color: crimson;
+ animation: box2 7s infinite; 
+
+ border-radius: 100px;
+ position: relative;
+ animation: ;
+ -webkit-box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 21px -17px 15px 16px rgba(0,0,0,0.58); 
+box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 21px -17px 15px 16px rgba(0,0,0,0.58);
+ 
+}
+
+  
+@keyframes box2 {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:900px; top:0px;}
+    50%  {background-color:blue; left:900px; top:400px;}
+    60%  {background-color:rgb(26, 255, 0); left:700px; top:400px;}
+    61%  {background-color:rgb(255, 0, 119); left:650px; top:000px;}
+    62%  {background-color:rgb(93, 0, 255); left:700px; top:400px;}
+    63%  {background-color:rgb(111, 129, 109); left:550px; top:000px;}
+    
+    64%  {background-color:rgb(255, 111, 0); left:650px; top:400px;}
+    65%  {background-color:rgb(21, 8, 39); left:450px; top:250px;}
+    66%  {background-color:rgb(26, 255, 0); left:550px; top:400px;}
+    67%  {background-color:rgb(0, 115, 255); left:350px; top:200px;}
+    68%  {background-color:rgb(255, 111, 0); left:500px; top:400px;}
+    69%  {background-color:rgb(26, 255, 0); left:250px; top:300px;}
+    70%  {background-color:rgb(0, 166, 255); left:500px; top:400px;}
+    75%  {background-color:rgb(128, 0, 98); left:700px; top:300px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
 .row {
     display: flex;
-   justify-content: space-between;
+    justify-content: space-between;
+  
 }
-.col-1 {
-    width: 50%;
+.row2{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30%;
+ 
+}
+.co2{
+    width: 20px;
+   
+}
+.colour{
+    width: 2842px ;
+    height: 754px ;
+    background-color: rgb(183, 38, 19);
+    margin-left: 120px;
+margin-top: 600px;
+}
     
-}
-.card {
-    width: 100px;
-    height: 100px;
-    background-color: #34307a;
-   
-    border-style: solid;
-    border-width: 3px;
-    border-color: black;
-    position: relative;
-    z-index: 1;
-    
-}
 
-.card:hover{
-    background-color: blueviolet;
-    -webkit-box-shadow: 0px 3px 0px 2px rgba(0,0,0,0.1), 0px 6px 0px 4px rgba(0,0,0,0.1), 0px 9px 0px 6px rgba(0,0,0,0.1), 0px 12px 0px 8px rgba(0,0,0,0.1), 0px 15px 0px 10px rgba(0,0,0,0.1), 0px 18px 0px 12px rgba(0,0,0,0.1), 0px 21px 0px 14px rgba(0,0,0,0.1), 0px 24px 0px 16px rgba(0,0,0,0.1), 0px 27px 0px 18px rgba(0,0,0,0.1), 0px 30px 0px 20px rgba(0,0,0,0.1), 11px -1px 18px 5px rgba(0,0,0,0); 
-box-shadow: 0px 3px 0px 2px rgba(0,0,0,0.1), 0px 6px 0px 4px rgba(0,0,0,0.1), 0px 9px 0px 6px rgba(0,0,0,0.1), 0px 12px 0px 8px rgba(0,0,0,0.1), 0px 15px 0px 10px rgba(0,0,0,0.1), 0px 18px 0px 12px rgba(0,0,0,0.1), 0px 21px 0px 14px rgba(0,0,0,0.1), 0px 24px 0px 16px rgba(0,0,0,0.1), 0px 27px 0px 18px rgba(0,0,0,0.1), 0px 30px 0px 20px rgba(0,0,0,0.1), 11px -1px 18px 5px rgba(0,0,0,0);
- transition-delay: 3s;   
+.tableanim{
+    margin-top: 300px;
 }
-.col-2 {
-    width: 50%;
-}
-.redcard{
-    width: 100px;
-    height: 100px;
-    background-color: crimson;
-   border-radius: 50px;
-    border-style: solid;
-    border-width: 3px;
-    border-color: black;
-    position:relative;
-    z-index: 2;
-    margin-top: 25px;
-    margin-left: 20px;
-    opacity: 0.5;
-
-
-}
-.card1 {
-    width: 100px;
-    height: 100px;
-    background-color: aqua;
-   
-    border-style: solid;
-    border-width: 3px;
-    border-color: black;
+.h2{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
     }
-
-    .email input {
-        width: 351px; 
-        height: 60px;
-        
-        margin-left: 100px;
-        outline: none;
-        font-family: Arial, Helvetica, sans-serif;
-        border-radius: 10px;
-        background: #FFFFFF;
-    }
-    .email button {
-        width: 112px;
-        height: 40px;
-        cursor: pointer;
-        background-color: #34307a;
-        
-        transform: translate(-115%, 0%);
-        border-radius: 40px;
-      
-        color: white;
-       
-       
+    .footer{
+        width: 3178px;
+        height: 141px;
+        background-color:rgba(170, 16, 31, 0.911);
+        justify-content: center;
+        margin-top: 144px;
+     
     }
    
+  
 
-
-    .email button:hover {background-color: #3e8e41}
 
